@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hello {
+  font-size: 3rem;
+  color: black;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    color: green;
+    transform: translateX(0vw);
+  }
+  25% {
+    color: #800055;
+    transform: translateX(20vw);
+  }
+
+  50% {
+    color: #3885f8;
+    transform: translateX(50vw);
+  }
+  75% {
+    color: #800000;
+    transform: translateX(60vw);
+  }
+
+  100% {
+    color: #802f00;
+    transform: translateX(0vw);
+  }
+}
